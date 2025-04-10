@@ -13,5 +13,5 @@ This repository is a collection of solutions for every CSS task and challenge pr
 
 ## 🗂️ Folder Structure
 
-Each task is placed in its own folder like 
+Each task is placed in its own folder
 
