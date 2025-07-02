@@ -1,0 +1,13 @@
+div{
+    border: 5px solid #FF5722;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    border: inherit;
+    padding: inherit;
+    background-color: #DDD;
+}
