@@ -1,0 +1,35 @@
+.parent{
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  padding: 10px;
+  list-style: none;
+  font-family: Arial;
+}
+.parent li{
+  background-color: #EEE;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.html ol li , .css ol li{
+ background-color: white;
+ padding: 10px;
+ margin-bottom: 5px;
+ margin-top: 5px;
+}
+
+.css ol{
+  list-style-type:upper-roman;
+  margin-bottom: 20px;
+}
+
+.java ul li {
+ background-color: white;
+ padding: 10px;
+ margin-bottom: 5px;
+ margin-top: 5px;
+ list-style: inside;
+ list-style-type: circle;
+}
