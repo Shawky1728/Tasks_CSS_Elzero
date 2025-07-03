@@ -1,0 +1,22 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+div{
+  width: 350px;
+  margin: auto;
+  background-color: #DDD;
+  padding: 20px;
+  text-align: center;
+  }
+
+div::first-letter{
+  padding: 12px 10px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  float: left;
+    margin-left: -30px;
+    margin-top: -14px;
+  
+
+}
