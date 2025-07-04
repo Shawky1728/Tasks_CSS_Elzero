@@ -1,0 +1,33 @@
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 50px;
+    box-shadow: -5px  -5px 0 0 #E91E63,5px  5px 0 0 #2196F3;
+    counter-increment: x;
+    position: relative;
+}
+
+div::before{
+    content: counter(x);
+    position: absolute;
+    left:calc(50% - 8px);
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+div::after{
+    content: "Element";
+    position: absolute;
+    left:calc(50% - 20px);
+    top:calc(50% - 10px);
+   
+}
