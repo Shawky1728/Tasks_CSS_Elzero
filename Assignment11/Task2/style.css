@@ -1,0 +1,22 @@
+div {
+
+  width: 400px !important;
+  margin: auto !important;
+  background-color: #EEE !important;
+  border: none !important;
+  text-indent: -1000px;
+  position: relative !important;
+}
+
+div::before{
+  content: "Elzero";
+  position: absolute;
+  text-indent:0 ;
+  left: calc(50% -  50px);
+  top: calc(50% - 10px);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
