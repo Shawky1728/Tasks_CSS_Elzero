@@ -1,0 +1,21 @@
+.parent{
+  width: 600px;
+  margin: 20px auto;
+  height: 300px;
+  background-color: #EEE;
+  padding: 10px;
+  display: flex;
+  justify-content:space-around ;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+div{
+  width: calc(90%/3);
+  background-color: #F44336;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
