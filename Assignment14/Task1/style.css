@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    margin: 20px auto;
+
+    height: 500px;
+    background-color: #EEE;
+    display: grid;
+
+  
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+
+div{
+    background-color: red;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
