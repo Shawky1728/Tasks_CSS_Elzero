@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.parent {
+    padding: 20px;
+    background-color: #EEE;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(7, auto);
+    gap: 10px;
+}
+
+.parent div {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.muted {
+    font-weight: bold;
+    color: #DDD;
+}
+
+.d1 {
+    grid-area: 1/1/3/3;
+}
+
+.d2 {
+    grid-area: 1/3/3/4;
+}
+
+.d3 {
+    grid-area: 1/4/7/5;
+    background-color: black !important;
+    color: white;
+}
+
+.d4 {
+    grid-area: 3/1/7/1;
+}
+
+.d5 {
+    grid-area: 3/2/5/4;
+    background-color: black !important;
+    color: white;
+}
+
+.d6 {
+    grid-area: 5/2/7/4;
+}
+
+.d8 {
+    background-color: black !important;
+    color: white;
+}
+
+.parent div::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #FF3E01;
+    bottom: 0;
+    left: 0;
+}
+
+.parent div::after {
+    content: "''";
+    position: absolute;
+    font-size: 60px;
+    color: #DDD;
+    bottom: -20px;
+    right: 10px;
+}
