@@ -1,0 +1,10 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+div div:nth-last-of-type(2),div div:nth-last-of-type(3),div p {
+  color: red;
+}
